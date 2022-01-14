@@ -2,7 +2,7 @@
 
 data_strs = Channel.from '1111', '2222', '3333', '4444'
 
-process main {
+process sayWow {
   echo true
   input: 
     val x from data_strs
